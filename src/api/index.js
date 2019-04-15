@@ -5,6 +5,7 @@ const instance = axios.create(_config);
 
 //请求拦截器
 instance.interceptors.request.use(config => {
+    console.log(config)
   // Indicator.open({text: '努力中...', spinnerType: 'fading-circle'});  // 请求数据时开始loading
   return config;
 }, error => {

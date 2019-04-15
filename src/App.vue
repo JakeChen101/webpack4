@@ -4,17 +4,6 @@
     </div>
 </template>
 
-<script>
-    // import Hammer from 'vue2-hammer'
-    // export default {
-    //     name: "App",
-    //     mounted () {
-    //         const hammerTime = new Hammer(this.$refs.content);
-    //         hammerTime.on('swiperight', env => {});
-    //     }
-    // }
-</script>
-
 <style>
     /*normalize*/
     html,body,p{margin: 0;padding: 0}

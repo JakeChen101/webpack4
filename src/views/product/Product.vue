@@ -1,7 +1,7 @@
 <template>
     <view-main>
         <jk-header slot="jkHeader">Product</jk-header>
-        <p>产品</p>
+        <p class="chen">产品</p>
         <jk-footer slot="jkFooter"></jk-footer>
     </view-main>
 </template>
@@ -13,5 +13,5 @@
 </script>
 
 <style scoped>
-
+  .chen{font-size: 12px}
 </style>

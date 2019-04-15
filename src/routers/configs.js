@@ -1,9 +1,9 @@
 const Login = () => import(/* webpackChunkName: "modules/login" */ '../views/Login');
 const Home = () => import(/* webpackChunkName: "modules/home" */ '../views/home/Home');
-const HomeHotProduct = () => import(/* webpackChunkName: "modules/home" */ '../views/home/HomeHotProduct');
-const Product = () => import(/* webpackChunkName: "modules/home" */ '../views/product/Product');
-const Found = () => import(/* webpackChunkName: "modules/home" */ '../views/found/Found');
-const My = () => import(/* webpackChunkName: "modules/home" */ '../views/my/My');
+const HomeHotProduct = () => import(/* webpackChunkName: "modules/homeHotProduct" */ '../views/home/HomeHotProduct');
+const Product = () => import(/* webpackChunkName: "modules/product" */ '../views/product/Product');
+const Found = () => import(/* webpackChunkName: "modules/found" */ '../views/found/Found');
+const My = () => import(/* webpackChunkName: "modules/my" */ '../views/my/My');
 
 export default [
     {path: '/', redirect: '/home'},
